@@ -20,6 +20,8 @@ def search(search_query):
     return search_query
 
 
+##test
+
 @app.route("/integer/<int:value>")
 def int_type(value):
     print(value + 1) 
